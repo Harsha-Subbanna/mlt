@@ -12,9 +12,9 @@ def find_largest(a, b, c):
 st.title("Find the Largest Number")
 st.write("Enter three numbers below to find the largest among them.")
 
-a = st.number_input("Enter the first number:,value=0")
-b = st.number_input("Enter the second number:,value=0")
-c = st.number_input("Enter the third number:,value=0")
+a = st.number_input("Enter the first number:",value=0)
+b = st.number_input("Enter the second number:",value=0)
+c = st.number_input("Enter the third number:",value=0)
 
 if st.button("Find"):
     largest = find_largest(a, b, c)
