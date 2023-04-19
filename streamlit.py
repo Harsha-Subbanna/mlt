@@ -18,3 +18,4 @@ c = st.number_input("Enter the third number:")
 
 if st.button("Find"):
     largest = find_largest(a, b, c)
+    st.write(f"The largest number is {largest}.")
